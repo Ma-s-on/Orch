@@ -1,0 +1,4 @@
+- name: nginx
+  restart: always
+- name: redis
+  restart: on-failure

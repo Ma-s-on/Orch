@@ -1,0 +1,7 @@
+[Unit]
+Description=Service Orchestrator
+[Service]
+ExecStart=python3 orchestrator.py
+Restart=always
+[Install]
+WantedBy=multi-user.target
